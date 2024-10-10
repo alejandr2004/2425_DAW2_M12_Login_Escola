@@ -1,0 +1,131 @@
+
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #3785C4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+    background-color: #f4f5fa;
+    flex-wrap: wrap;
+    text-align: center;
+}
+form{
+    text-align: center;
+    width: 20%;
+    background-color: black; 
+    color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 3%;
+}
+
+label{
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.login {
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+input[type="text"]{
+    width: 70%;
+}
+
+input[type="password"]{
+    width:  70%;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+    background-color: #f4f5fa;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+}
+
+.imgNet {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%; 
+
+}
+
+.imgLogo {
+    padding-top: 0; 
+    height: 90%; 
+}
+
+.error{
+    color: red;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.login {
+    width: 20%;
+    margin-top: 5%;
+    padding-bottom:2% ;
+}
+form {
+    text-align: center;
+    width: 20%;
+    background-color: black; 
+    color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto; 
+}
+
+label{
+    margin-left: 11%
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%; 
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin: 10px auto; 
+    box-sizing: border-box;
+    display: block; 
+}
+
+button{
+    width: 80%;
+    background-color:#3785C4 ;
+    color: black;
+    padding-left: 7%;
+    padding-right: 7%;
+    border-radius: 15px; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    cursor: pointer; 
+    font-size: 14px; 
+    margin-top: 1rem;
+    transition: 1s;
+    border: black solid 1px;
+}
